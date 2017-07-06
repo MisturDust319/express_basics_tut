@@ -1,0 +1,15 @@
+{
+  "name": "template_tutorial",
+  "version": "1.0.0",
+  "description": "a simple template tutorial example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stan S.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.2"
+  }
+}
