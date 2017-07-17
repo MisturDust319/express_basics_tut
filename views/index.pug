@@ -1,4 +1,12 @@
 extends layout.pug
 block content
 	p #{body}
-//extends grabs layout.pug, and preps it to be overwritten
+	p However, these treats might mess things up:
+	ul
+		each treat in treats
+			li= treat
+	p Is this true?
+	if answer===true
+		p Yes, it's true!
+	else
+		p Noes!
